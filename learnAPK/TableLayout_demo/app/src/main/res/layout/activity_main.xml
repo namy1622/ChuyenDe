@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:shrinkColumns="0"
+
+    android:stretchColumns="1"
+   >
+    <!-- shinkColumns : điều chỉnh độ co lại tối thiểu, ví dụ ở trên là co cột 0-->
+
+    <TableRow>
+        <TextView android:text="Đăng Nhập"
+
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:layout_span="2"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="UserName"/>
+        <EditText android:hint="nhập id"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Passwork"/>
+        <EditText android:hint="nhập mật khẩu"/>
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quên MK"/>
+    </LinearLayout>
+</TableLayout>

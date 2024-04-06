@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại biến nào được dùng đặt tên cho 1 thành phố?" />
+
+    <CheckBox
+        android:id="@+id/pa1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="int" />
+
+    <CheckBox
+        android:id="@+id/pa2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="double" />
+
+    <CheckBox
+        android:id="@+id/pa3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="string" />
+
+    <CheckBox
+        android:id="@+id/pa4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="boolean" />
+
+    <Button
+        android:id="@+id/kiemtra"
+        android:text="Kiem tra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/goiy"
+        android:text="Goi ý"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

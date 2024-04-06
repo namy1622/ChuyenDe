@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:backgroundTint="#A3E30C"
+        android:text="Button1 = nut bam 1"
+        android:textColor="#B83535"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="monospace"
+
+
+        android:maxHeight="30dp"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:textAllCaps="false"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    
+    <Button
+        android:id="@+id/button2"
+        android:backgroundTint="#B51F1F"
+        android:textColor="@color/black"
+        android:text="Button 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        style= "@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#EF3232"
+
+
+        android:textSize="30sp"
+        android:id="@+id/button3"
+        android:text="Button 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
