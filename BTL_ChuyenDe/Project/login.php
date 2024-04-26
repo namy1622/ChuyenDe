@@ -32,7 +32,15 @@ form{
       <h1>Đăng nhập tại đây</h1>
       <input type="text"  placeholder= "Nhập Tài Khoản" name="user"><br>
       <input type="password" placeholder="Nhập Password" name="password"><br>
-      <input type="Submit" value="Đăng nhập" name="login">
+      <input class="button" type="Submit" value="Đăng nhập" name="login">
+      
+
+      <div class="second_login">
+            <input class="button" type="Submit" value="Đăng kí" name="create_account">
+            <input class="button" type="Submit" value="Quên mật khẩu" formaction="send.php" name="forgot_password">
+      </div>
+    
+      
    </form>  
    </div>
 <?php
